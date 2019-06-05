@@ -142,7 +142,7 @@ if(errors){
 if(err) console.log(err);
 
   		if(user){
-  			
+
   			res.redirect('/second');
   		}
 
@@ -154,8 +154,8 @@ if(err) console.log(err);
   					email: email,
   					username: username,
   					password: password,
-  					
- 
+
+
 
   				});
 
@@ -166,12 +166,12 @@ if(err) console.log(err);
 
   							else{
 
-  								
+
   								res.redirect('/login');
   							}
 
   						});
-  					
+
 }
 
 
@@ -179,7 +179,7 @@ if(err) console.log(err);
   	});
 
 }
-  			
+
 })
 
 
