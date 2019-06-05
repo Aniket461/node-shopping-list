@@ -74,7 +74,7 @@ errorFormatter: function(param,msg,value){
 
 
 
-var user = ['test','neck', 'blow'];
+var user = ['test','neck', 'blow', 'checker'];
 
 
 app.get('/', function(req,res){
